@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+
+  <body>
+    <main id="main" class="main">
+      <!-- .header -->
+      <header class="header">
+        <h1 class="title" id="title">Andrew Tate</h1>
+        <p class="title-description"> CEO of Hustlers University</p>
+        <figure class="media" id="div-img">
+          <img
+            class="media__img"
+            id="image"
+            src="https://www.wallpapersun.com/wp-content/uploads/2022/05/Andrew-Tate-Wallpaper-www.wallpapersun.com-a-9.jpg"
+          />
+          
+        </figure>
+      </header>
+      <!-- tribute-info -->
+      <article class="tribute-info" id="tribute-info">
+        <h3 class="headline">Here's a time line of Andrew Tate's life:</h3>
+        <!-- .list-of-time -->
+        <ul class="list-of-time">
+          <li>
+            <time class="time">1986</time> - Andrew Tate's birthplace and family Andrew Tate was born in Washington, D.C. to his parents Emory Tate and Eileen Tate. Emory was a member of the airforce and an acclaimed Chess player – described as “a trailblazer for African-American chess”
+          </li>
+          <li>
+            <time class="time">2007</time> -After starting self defence classes and martial arts, Andrew began training in kickboxing under his coach Amir Subasic at a gym in Luton. One of his first professional fights was in April 2007. By 2009, he had won the British ISKA (International Sport Karate Association) Full Contact Cruiserweight Championship in Derby, going by the name King Cobra.
+          </li>
+          <li>
+            <time class="time">2011</time> -Andrew wins his first ISKA world title by beating Jean-Luc Benoit, and begins to make a name for himself. He joins Twitter as @cobratate.
+          </li>
+          <li>
+            <time class="time">2016</time> - Andrew appeared on series 17 of Big Brother, but was removed from the house on day 7.
+          </li>
+          <li>
+            <time class="time">2017</time> -  Andrew and his brother Tristan relocate to Romania, where they live in large compound. The Bucharest house is a converted warehouse with armed guards – which was one of the reasons, he told The Times, why he wanted to leave the UK, where it wouldn't be allowed.
+          </li>
+          <li>
+            <time class="time">2022</time> - Andrew Tate became prominent once again in 2022, when his provocative and controversial views began circulating on TikTok.In starting another business called Hustlers University, he encouraged fans to take his online course – which was billed as a masterclass in cryptocurrency, e-commerce and stock trading – for a monthly fee. The website featured numerous videos of supercars and yachts filled with women, and also called for users to share Andrew's content online in order to recruit more members and earn a commission. It's said that they were actively encouraged to share controversial videos that would start “war” online.
+          </li>
+          <li>
+            <time class="time">2022</time> -  Andrew Tate takes on Greta Thunberg, and is subsequently arrested.
+          </li>
+          <li>
+            <time class="time"> 2023</time> - On 10 January 2023, a Romanian court upheld the 30-day arrest of Andrew Tate, his brother Tristan and two Romanian women who were also arrested on the same charges. According to Sky News, a document explaining the judge's decision said "the possibility of them evading investigations cannot be ignored" and they could "leave Romania and settle in countries that do not allow extradition".
+          </li>
+        </ul>
+        <blockquote class="quote">
+          <p>
+            Andrew Tate is a controversial figure who has made a name for himself in various fields. Born on December 1, 1985, in Washington, D.C., he has led a diverse and multifaceted life, dabbling in professional kickboxing, entrepreneurship, and social media presence. While opinions about him are divided, it is worth highlighting some of the positive aspects associated with his endeavors. Andrew Tate first gained prominence in the world of professional kickboxing. He achieved considerable success in the sport, winning four world championships and establishing himself as a skilled and dedicated athlete. His commitment and discipline in training undoubtedly played a role in his achievements and served as an inspiration to aspiring fighters. In addition to his kickboxing career, Tate has ventured into entrepreneurship. He has developed online businesses and created courses and content aimed at personal development and financial success. Through these ventures, he has sought to share his knowledge and experiences to empower individuals in their pursuit of personal growth and financial independence. Furthermore, Andrew Tate has utilized his social media presence to engage with his followers and share motivational messages. He has amassed a substantial following on platforms like Instagram and YouTube, where he discusses various topics related to self-improvement, fitness, and financial literacy. For some, his candid and direct approach resonates and provides motivation to strive for personal excellence. It is important to note that opinions on Andrew Tate are polarized, and he has faced criticism for certain statements and controversial viewpoints he has expressed online. These aspects have generated debate and scrutiny surrounding his overall influence and impact. Ultimately, while Andrew Tate's journey may have both positive and negative aspects, it is important to recognize his achievements in kickboxing, his entrepreneurial endeavors, and his efforts to motivate and inspire individuals through his online presence. However, it is advisable to approach his content critically and form one's own informed opinions. 
+          </p>
+          <cite>  “I think the women belong to the man.” - Andrew Tate</cite>
+        </blockquote>
+      </article>
+      <footer class="footer">
+        
+      </footer>
+    </main>
+  </body>
+</html>
+<style>
+    /* base styles */
+
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+
+  --bg-color: #53538a;
+  --headline-color: #928989;
+  --text-color: #000000;
+  --time-color: #000000;
+  --secondary-color: #97938f;
+  --media-caption-color: #517e8c;
+  --tertiary-color: #f05c4f;
+  --border-color: #000727;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: var(--secondary-color);
+}
+
+.main {
+  background-color: var(--bg-color);
+}
+
+/* header */
+.header {
+  padding: 1.4em 0;
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  font-size: 2.4rem;
+  color: var(--headline-color);
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 0.15em;
+}
+
+.title-description {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+@media (min-width: 35em) {
+  .header {
+    padding: 1.8em 0;
+  }
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .title-description {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .header {
+    padding: 2em 0;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .title-description {
+    font-size: 1.5rem;
+  }
+}
+
+/* media */
+.media {
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 3em 1.5em 1.5em;
+  margin: 2em auto 1em;
+}
+
+.media__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  margin: 0 auto;
+}
+
+.media__caption {
+  color: #716040;
+  padding: 0 1em;
+  margin-top: 1.5em;
+}
+
+@media (min-width: 35em) {
+  .media {
+    padding: 4em 4em 1.5em;
+  }
+
+  .media__caption {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 50em) {
+  .media {
+    padding: 5em 5em 3em;
+  }
+
+  .media__img {
+    max-width: min(100%, 900px);
+  }
+
+  .media__caption {
+    max-width: 720px;
+    margin: 1em auto 0;
+  }
+}
+
+/* article */
+@media (min-width: 35em) {
+  .tribute-info {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+.tribute-info > * + * {
+  margin: 3em auto;
+}
+
+.headline {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--headline-color);
+}
+
+.list-of-time {
+  padding: 0 4em;
+}
+
+.list-of-time * {
+  margin-top: 1.2em;
+}
+
+.list-of-time > li {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.list-of-time .time {
+  font-weight: 700;
+}
+
+.quote {
+  color: var(--text-color);
+  padding-top: 1em;
+  border-top: 1px solid var(--time-color);
+  margin: 2em 4em;
+  text-align: center;
+}
+
+.quote > p {
+  margin-bottom: 0.5em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+</style>
